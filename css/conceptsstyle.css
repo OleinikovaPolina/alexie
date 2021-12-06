@@ -84,7 +84,7 @@ h1 {
 }
 
 .navigation {
-    padding-top: 1rem;
+    margin-top: 1rem;
 }
 
 .accordion-button::after {
@@ -174,7 +174,7 @@ h1 {
     }
 
     .navigation {
-        padding-top: 3.5rem;
+        margin-top: 3.5rem;
     }
 
     .accordion-button::after {

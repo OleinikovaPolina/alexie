@@ -744,3 +744,13 @@ a.disabled {
   height: 100%;
   overflow: hidden;
 }
+@media (min-width:1024px) {
+  .menu-my a:first-of-type {
+    width: 2.5rem;
+    height: 28%;
+  }
+  .menu-my a:first-of-type img{
+    object-fit: contain;
+    object-position: top;
+  }
+}

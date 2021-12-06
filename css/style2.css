@@ -89,6 +89,7 @@
 @media (min-width:1024px) {
   #menu {
     width: fit-content;
+    max-width: 25vw;
   }
 }
 
@@ -769,4 +770,7 @@ a.disabled {
     object-fit: contain;
     object-position: top;
   }
+}
+.text-dark {
+  color: #2d2d2d;
 }

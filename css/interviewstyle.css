@@ -78,6 +78,10 @@ body {
     padding-bottom: 2rem;
 }
 
+.navigation__center{
+    border: 1px solid #F4CEA2;
+    border-radius: 100px !important;
+}
 @media (min-width:992px) {
     .desc_home {
         padding-bottom: 3rem;

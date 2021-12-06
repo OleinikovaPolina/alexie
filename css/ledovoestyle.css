@@ -1011,3 +1011,6 @@ body {
   fill: none;
   stroke: #2d2d2d;
 }
+.desktop-notation:before{
+  border-color: #2d2d2d;
+}

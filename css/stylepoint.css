@@ -325,7 +325,8 @@ header h1 {
   display: none;
 }
 
-.cd-single-point.is-open .cd-more-info {
+.cd-single-point.is-open .cd-more-info {  
+  display: table;
   z-index: 9990;
   visibility: visible;
   opacity: 1;

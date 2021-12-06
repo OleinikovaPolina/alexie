@@ -13,8 +13,9 @@
 .preview-image .cd-floating-background .image-3 {
     left: auto;
     right: 25%;
-    bottom: 10%;
+    top: 10%;
     width: 20%;
+    height: auto;
 }
 
 .cd-projects .preview-image {

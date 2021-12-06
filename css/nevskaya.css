@@ -1,0 +1,99 @@
+.cd-projects-container .parallax-text .col-11{
+    margin-top: -10%;
+}
+.preview-image .cd-floating-background .image-3{
+    object-position: top;
+    width: 100%;
+    object-fit: cover;
+    height: 75%;
+}
+
+body::before {
+    background: url('../img/navskaya-bg.jpg');
+    background-size: cover;
+}
+.preview-image .mobile {
+    background:#05453A url('../img/nevskaya/bg (4).png');
+    background-size: cover;
+}.cd-background-wrapper {
+    background: #05453A
+  }
+  body{
+    background-color: #ffe7cb;
+  }
+.mobile-header{
+    padding-top: 7rem;
+}
+.mobile-text p{
+    padding: 1.5rem 0;
+}
+.primary-nav__warrior{
+    height: auto;
+    object-fit: contain;
+}
+.preview-image{
+    height: auto!important;
+}
+@media (min-width:1024px){
+    .preview-image{
+        height: 100%!important;
+    }
+}
+/*  */
+.nevskaya_event {
+  position: relative;
+  padding-bottom: 75px;
+  margin-bottom: 64px;
+}
+.nevskaya_event p{
+    margin-bottom: 0 !important;
+}
+.navigation_nevskaya{
+    margin-bottom: 32px;
+}
+.event__underline-link {
+  position: absolute;
+  bottom: 0;
+  right: 1%;
+  font-size: 40px !important;
+  color: #2D2D2D;
+  line-height: 48px;
+}
+.event__underline-link:hover{
+    color: #D02E2E;
+    transition: 0.3s all;
+}
+.cd-project-info__nevskaya h3{
+    font-family: 'ST-Nizhegorodsky',Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    color: #2D2D2D;
+    margin-bottom: 16px;
+}
+.cd-project-info__nevskaya p{
+    font-size: 24px;
+    line-height: 32px;
+    color: #2D2D2D;
+     margin-bottom: 64px;
+}
+
+@media (max-width:640px) {
+    .cd-project-info__nevskaya h3{
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 8px;
+    }
+    .cd-project-info__nevskaya p{
+        font-size: 16px;
+        line-height: 24px;
+         margin-bottom: 44px;
+    }
+    .event__underline-link{
+        font-size: 36px !important;
+
+    }
+    .navigation_nevskaya{
+        margin-bottom: 18px;
+    }
+}

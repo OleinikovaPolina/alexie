@@ -1,0 +1,312 @@
+.vk-video {
+    display: none;
+}
+
+.close-img {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 10%;
+    right: 5%;
+}
+
+.cd-project-info__vr {
+    background: #141414;
+    padding-top: 5rem;
+}
+
+.vr-video-wrap {
+    cursor: pointer;
+    padding: 44px 45% 44px 7%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #F4CEA2;
+    border-radius: 8px;
+    background: url('../img/vr/alex.png') right no-repeat, url('../img/vr/back-video.jpg') center/cover;
+}
+
+
+.vk-video-wrap {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.vr-video-wrap_img {
+    position: absolute;
+    width: 15%;
+    /* height: 17%; */
+    /* max-width: 92px; */
+    /* max-height: 92px; */
+    top: 38%;
+    left: 46%;
+}
+
+.vr-video-wrap_img::after {
+    content: '';
+    position: absolute;
+    /* border: 1 px solid red; */
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* left: 0; */
+    animation: cd-pulse 2s infinite;
+}
+
+.vr-add {
+    display: flex;
+    flex-direction: column;
+    padding: 41px 0;
+    padding: 41px 7% 41px 42%;
+    border: 1px solid #F4CEA2;
+    border-radius: 8px;
+    background: url('../img/vr-add-phone.png') no-repeat, url('../img/vr-back.jpg') center/cover;
+
+}
+
+@media (min-width:1024px) {
+    .cd-project-info__vr {
+        padding-top: 43px;
+    }
+
+    .vr-video-wrap {
+        background: url('../img/vr/alex.png') 100% 0/auto 110% no-repeat, url('../img/vr/back-video.jpg') center/cover;
+    }
+
+    .vr-add {
+        background: url('../img/vr-add-phone.png') no-repeat 5% 35%/auto 130%, url('../img/vr-back.jpg') center/cover;
+
+    }
+}
+
+.vr-add h2 {
+    font-family: 'Monserrat';
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 54px;
+    color: #F4CEA2;
+    margin-bottom: 20px;
+}
+
+.vr-add p {
+    font-family: 'Monserrat';
+    font-size: 20px;
+    line-height: 28px;
+    color: #F4CEA2;
+    margin-bottom: 30px;
+}
+
+.vr-video-wrap h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    /* font-size: 160px;
+    line-height: 154px; */
+}
+
+.vr-video-wrap p {
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 43px;
+}
+
+@media(min-width:1024px) {
+    .desc_home {
+        padding-bottom: 3vh;
+    }
+    .cd-project-info{
+        padding-left: 3.1rem;
+        padding-top: 4vh;
+    }
+    .vr-add {
+        height: 30vh;
+    }
+
+    .vr-add h2 {
+        font-size: 3.5vh;
+        line-height: 4.5vh;
+        margin-bottom: 2vh;
+    }
+
+    .vr-add p {
+        font-size: 2vh;
+        line-height: 2.5vh;
+        margin-bottom: 30px;
+    }
+
+    .vr-video-wrap h1 {
+        font-size: 12vh;
+        line-height: 12vh;
+        padding-bottom: 2vh;
+    }
+
+    .vr-video-wrap p {
+        font-size: 3.5vh;
+        line-height: 4.5vh;
+    }
+
+    .vr-add__buttons img {
+        height: 6vh;
+    }
+
+    .vr-video-wrap_img, .vr-video-wrap_img img, .vr-video-wrap_img:after {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+    }
+
+    .vr-video-wrap_img {
+        top: calc(50% - 5vh)
+    }
+    .vr-add__buttons{
+        display: flex;
+    }
+    .vr-add__buttons .vr-add__button:first-of-type{
+        padding-right: 1rem;
+    }
+    .vr-add__button img{
+        object-fit: contain;
+    }
+}
+
+@media(min-width:1280px) {
+    .vr-add h2 {
+        font-size: 4vh;
+        line-height: 5vh;
+    }
+
+    .vr-add p {
+        font-size: 2.2vh;
+        line-height: 2.8vh;
+    }
+}
+@media (max-width:720px) {
+    .vr-add {
+        padding: 46px 32px;
+        padding-right: 30%;
+        margin-bottom: 32px;
+        background: url('../img/vr/vr-phone-640.png') right bottom no-repeat, url('../img/vr-back.jpg') center/cover;
+
+    }
+
+    .vr-add h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .vr-add p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .vr-add__buttons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .vr-video-wrap {
+        background: url('../img/vr/alex-640.png') right bottom/ contain no-repeat, url('../img/vr/back-video.jpg') center/cover;
+
+    }
+
+    .vr-video-wrap h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+        /* font-size: 160px;
+        line-height: 154px; */
+        margin-bottom: 40px;
+    }
+
+    .vr-video-wrap p {
+        font-weight: 600;
+        font-size: 33px;
+        line-height: 43px;
+    }
+
+    .vk-video-wrap {
+        height: 100%;
+    }
+}
+
+@media (max-width:425px) {
+    .vr-add {
+        background: url('../img/vr-back.jpg') center/cover;
+    }
+
+    .vr-add h2 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 16px;
+    }
+
+    .vr-add p {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width:480px) {
+    .vr-video-wrap p {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width:320px) {
+    .vr-add {
+        background: url('../img/vr-back.jpg') center/cover;
+    }
+
+    .vr-add h2 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 16px;
+    }
+
+    .vr-add p {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .vr-video-wrap_img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .vr-video-wrap::after {
+        width: 36px;
+        height: 36px;
+        top: 38%;
+        left: 46%;
+    }
+
+    .vr-video-wrap h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        /* font-size: 160px;
+        line-height: 154px; */
+        margin-bottom: 18px;
+    }
+
+    .vr-video-wrap p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+.cd-project-info__vr img {
+    /* width: 15%; */
+    max-width: 100%;
+}
+
+.desc_home {
+    position: static;
+    padding-bottom: 2rem;
+}

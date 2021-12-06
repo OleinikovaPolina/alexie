@@ -1,0 +1,267 @@
+.cd-project-info {
+    padding-top: 5rem;
+}
+
+.preview-image {
+    height: 0 !important;
+}
+
+.bg-interview p, h1, h3, a {
+    color: #F4CEA2;
+}
+
+.desc_home {
+    position: static;
+    padding-bottom: 1rem;
+}
+.navigation__center__img {
+    border: 1px solid #f4cea2;
+}
+body::before {
+    background: #0A778E url("../img/test/bg\ \(4\).png") no-repeat center center;
+    background-size: cover;
+}
+
+body {
+    background-color: #0A778E;
+}
+
+
+.wrapper {
+    background: #2D2D2D;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    padding: 1.8rem 3rem;
+}
+
+.quiz__head p {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    padding-bottom: 0.5rem;
+}
+
+.quiz__body p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+}
+
+.quiz-frame a {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+label {
+    color: #F4CEA2;
+    cursor: pointer;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    padding-left: 1rem;
+}
+
+.buttons__content {
+    padding-bottom: 1.25rem;
+}
+
+
+.res img {
+    border-radius: 4px;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.res p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.navigation {
+    padding: 1rem 0;
+}
+
+.desktop-notation__text {
+    margin-top: 1rem !important;
+    padding-bottom: 0 !important;
+}
+
+@media (min-width:992px) {
+    .navigation {
+        padding: 3rem 0;
+    }
+
+    .desktop-notation__text {
+        margin-top: 2rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .res img {
+        width: 30%;
+    }
+
+    .buttons__content {
+        padding-bottom: 2.25rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    label {
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        padding-left: 1rem;
+    }
+
+    .quiz-frame a {
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+    }
+
+    .quiz__body p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .quiz__head p {
+        font-weight: 600;
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    .wrapper {
+        padding: 3.5rem 6rem;
+    }
+
+    .desc_home {
+        padding-bottom: 3rem;
+    }
+
+    .bg-interview {
+        margin-bottom: 3.25rem;
+    }
+
+    .cd-project-info {
+        padding-top: 0;
+        margin-left: 3.1rem;
+        background: none;
+        min-height: 100%;
+        padding-top: 3rem;
+    }
+
+    .res p {
+        font-weight: 400;
+    }
+}
+
+.quiz-frame {
+    border: 0;
+    box-shadow: 0px 16px 32px rgba(51, 52, 51, 0.25);
+}
+
+.head__content {
+    padding-bottom: 2.25rem;
+}
+
+
+input {
+    cursor: pointer;
+    margin-top: 0 !important;
+}
+
+input[disabled], input[disabled]~.form-check-label {
+    cursor: auto;
+}
+
+.form-check {
+    margin-bottom: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.quiz__footer .underline-link, .quiz__head .underline-link {
+    font-size: 1.875rem;
+}
+
+.quiz__head .underline-link {
+    color: #F4CEA2;
+    height: fit-content;
+}
+
+.quiz__head .underline-link:hover {
+    color: #D02E2E;
+    transition: 0.3s all;
+}
+
+.quiz__footer p, .res h1 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    letter-spacing: 0.02em;
+    font-family: "ST-Nizhegorodsky";
+}
+
+.answ {
+    padding-bottom: 1rem;
+}
+
+.answ a {
+    padding-left: 0rem;
+}
+
+.answ p:first-letter {
+    text-transform: uppercase;
+}
+
+.nextbtn a span {
+    font-size: 2.5rem !important;
+}
+
+.form-check-input {
+    border: 2px solid #F4CEA2;
+    background-color: #2d2d2d;
+}
+
+.form-check-input:checked {
+    border: 2px solid #F4CEA2;
+    background: #2d2d2d;
+}
+
+.button_correct .form-check-input:checked[type=radio] {
+    background-size: cover;
+    background-image: url('../img/test/Ellipse\ 10\ \(2\).png');
+}
+
+.button_wrong .form-check-input:checked[type=radio] {
+    background-size: cover;
+    background-image: url('../img/test/Ellipse\ 10\ \(3\).png');
+}
+
+a {
+    color: #D02E2E;
+}
+
+a:hover {
+    color: #D02E2E;
+}
+
+.answ.correct a {
+    color: #26720B;
+    font-size: 1.5rem;
+}
+
+.containerfooter {
+    bottom: 0;
+}
+
+.reslink {
+    font-family: 'ST-Nizhegorodsky';
+    color: #F4CEA2;
+}
+
+.reslink:hover {
+    color: #D02E2E;
+    transition: 0.3s all;
+}
+
+.navigation .navigation__right-part .navigation__link::after {
+    border-color: #F4CEA2;
+}

@@ -1,0 +1,140 @@
+.cd-project-info {
+    background: #F4CEA2;
+    padding-top: 5rem;
+}
+
+body {
+    background-color: #252525;
+}
+
+.preview-image {
+    height: 0 !important;
+}
+
+.bg-interview {
+    background: #F4CEA2;
+    border-radius: 8px;
+    padding: 0 1.25rem;
+}
+
+.bg-interview * {
+    color: #2D2D2D !important;
+}
+
+.desc_home {
+    position: static;
+    padding-bottom: 1rem;
+}
+
+.cd-project-info img {
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.cd-project-info h1 {
+    font-size: 2rem;
+    padding: 0 0 1.75rem 0;
+    line-height: 2.75rem;
+}
+
+.name {
+    padding: 0 1.75rem;
+}
+
+.bg-interview h1 {
+    font-family: 'Monserrat';
+    font-weight: 700;
+}
+
+.interviewheader {
+    padding-bottom: 1.0625rem;
+}
+
+.name p:nth-child(1) {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.name p:nth-child(2) {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-style: italic;
+}
+
+.p1 {
+    font-weight: 600;
+    font-size: 1.5rem !important;
+    line-height: 2.4rem !important;
+    padding-bottom: 1rem;
+
+}
+
+.p2 {
+    font-weight: 400;
+    font-size: 1.5rem !important;
+    line-height: 2.4rem !important;
+    padding-bottom: 2rem;
+}
+
+@media (min-width:992px) {
+    .desc_home {
+        padding-bottom: 3rem;
+    }
+
+    .bg-interview {
+        padding: 0;
+        margin-bottom: 3.25rem;
+    }
+
+    .cd-project-info {
+        padding-top: 0;
+        margin-left: 3.1rem;
+        background: none;
+        min-height: 100%;
+        padding-top: 3rem;
+    }
+
+    body::before {
+        background: url("../img/interview/img.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+    .cd-project-info h1 {
+        font-size: 3.375rem;
+        padding: 3rem 0;
+        line-height: 4.25rem;
+    }
+
+    .name {
+        padding: 0 1.875rem;
+    }
+
+    .interviewheader {
+        padding-bottom: 2.75rem;
+    }
+
+    .name p:nth-child(1) {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .name p:nth-child(2) {
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .p1 {
+        font-size: 1.25rem !important;
+        line-height: 1.75rem !important;
+    }
+
+    .p2 {
+        font-size: 1.25rem !important;
+        line-height: 1.75rem !important;
+        padding-bottom: 2.75rem;
+    }
+}

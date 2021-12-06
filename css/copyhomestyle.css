@@ -1,0 +1,127 @@
+
+.navigation__right-part svg {
+    transform: rotate(0);
+    margin-left: 1rem;
+}
+
+.linkBack-svg {
+    width: 30px;
+    height: 30px;
+}
+.after{
+    position: relative;
+    margin-left: 16rem;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.after::after {
+    width: 30px;
+    height: 30px;
+    
+}
+/* 
+.navigation__right-part .navigation__link:hover path {
+    stroke: #D02E2E;
+    transition: 0.5s;
+}
+
+.navigation__right-part .navigation__link:hover circle {
+    stroke: #D02E2E;
+    transition: 0.5s;
+} */
+
+
+@media (min-width:992px) {
+    .linkBack-svg {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .after::after {
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media (min-width:1024px) {
+
+    .linkBack-svg {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .after::after {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width:1400px) {
+
+    .linkBack-svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .after::after {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width:1900px) {
+    .linkBack-svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .after::after {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.after::after {
+    /* this is used to create the pulse animation */
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    border-radius: 50%;
+    -webkit-animation: cd-pulse 2s infinite;
+    -moz-animation: cd-pulse 2s infinite;
+    animation: cd-pulse 2s infinite;
+    border: 0.5rem solid;
+}
+
+@keyframes cd-pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        border: 0.5rem solid rgba(208, 46, 46, 1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.6);
+        -moz-transform: scale(1.6);
+        -ms-transform: scale(1.6);
+        -o-transform: scale(1.6);
+        transform: scale(1.6);
+        border: 0.04rem solid rgba(244, 206, 162, 0);
+    }
+}
+
+.close-img {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 10%;
+    right: 5%;
+    cursor: pointer;
+}

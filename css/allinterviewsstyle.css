@@ -1,0 +1,109 @@
+body::before {
+    background: url("../img/interview/Rectangle\ 92.png") no-repeat center center;
+    background-size: cover;
+}
+
+body {
+    background-color: #F6D3AA;
+}
+
+.preview-image {
+    height: 0 !important;
+}
+
+.cd-project-info .cardpeople * {
+    color: #2d2d2d;
+}
+
+.cardpeople {
+    padding: 0 0 2.5rem 0;
+}
+
+.cardpeople img {
+    display: none;
+    width: 13.75rem;
+    height: 12.75rem;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.cardpeople a {
+    font-size: 4.5rem;
+}
+
+.cardpeople a:hover {
+    color: #BC1A0B;
+    transition: 0.3s all;
+}
+
+.cardpeople p {
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.desktop-notation .container {
+    margin-top: 1.5rem;
+}
+
+.cd-project-info {
+    padding-bottom: 1.5rem;
+}
+
+.desktop-notation p, .desktop-notation a {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.desktop-notation a:hover {
+    color: #D02E2E;
+    transition: 0.3s all;
+}
+
+
+.desktop-notation a {
+    color: #2d2d2d;
+    font-family: 'Monserrat';
+    font-weight: 400;
+}
+
+@media (min-width: 1024px) {
+    .cardpeople img {
+        display: block;
+        transition: 1s all;
+    }
+
+    .cardpeople a {
+        font-size: 3rem;
+    }
+
+    .cardpeople {
+        padding: 2.5rem 0 0 0;
+    }
+
+
+    .cardpeople a {
+        font-size: 2.125rem;
+    }
+
+    .cardpeople p {
+        padding-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        transition: 1s all;
+    }
+
+    .cd-project-info {
+        padding: 3rem 0 1.5rem 3.1rem;
+    }
+
+    .desktop-notation .container {
+        margin-top: 1.5rem;
+    }
+
+    .desktop-notation p, .desktop-notation a {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}

@@ -1,0 +1,195 @@
+body::before {
+    background: url("../img/interview/img.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.preview-image {
+    height: 0 !important;
+}
+.navigation__center__img {
+    border: 1px solid #f4cea2;
+}
+.cd-project-info {
+    padding-bottom: 0;
+}
+
+.bg-interview {
+    padding: 0 1rem;
+}
+
+.headerconcepts {
+    background: #F4CEA2;
+    border-radius: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.bg-interview * {
+    color: #2D2D2D;
+    font-family: 'Monserrat';
+}
+
+h1 {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+    font-weight: 600;
+}
+
+.cd-project-info h2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+.desc_home {
+    position: static;
+    padding-bottom: 1.5rem;
+}
+
+.accordion * {
+    color: #2D2D2D !important;
+    font-family: 'Monserrat';
+}
+
+.accordion-item,
+.accordion-button {
+    background: #f4cea2 !important;
+}
+
+.accordion-button {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-radius: 0.5rem !important;
+    box-shadow: none !important;
+    padding: 1.75rem 1.1875rem;
+}
+
+.accordion-body {
+    padding: 0.25rem 1.1875rem 2rem 1.1875rem;
+}
+
+.accordion-body p {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    outline: none;
+    color: #2D2D2D;
+}
+
+.navigation {
+    padding-top: 1rem;
+}
+
+.accordion-button::after {
+    background-image: url("../img/Open.svg");
+    background-size: cover;
+    width: 2rem;
+    height: 2rem;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../img/Close.svg");
+    width: 2rem;
+    height: 2rem;
+    background-size: cover;
+}
+
+.accordion-container {
+    margin-top: 1.5rem;
+    padding: 0 1rem !important;
+}
+
+.btn-primary-concepts {
+    margin-left: 1rem;
+    background: #2D2D2D;
+    color: #fff !important;
+    margin-top: 1rem;
+}
+
+.btn-primary-concepts:hover {
+    background: #D02E2E;
+}
+
+.btn-primary-concepts:focus {
+    box-shadow: none;
+}
+
+@media (min-width:992px) {
+    .btn-primary-concepts {
+        font-size: 1.2rem;
+    }
+
+    .desc_home {
+        padding-bottom: 3rem;
+    }
+
+    .cd-project-info {
+        margin-left: 3.1rem;
+        background: none;
+        min-height: 100vh;
+        padding-top: 3rem;
+    }
+
+    .cd-project-info {
+        padding: auto;
+    }
+
+    h1 {
+        font-size: 2.375rem;
+        line-height: 4.25rem;
+        font-weight: 700;
+    }
+
+    .cd-project-info h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .headerconcepts {
+        padding-top: 2.5rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .accordion-button {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: 2rem 2.125rem;
+    }
+
+    .accordion-body {
+        padding: 0.5rem 2.125rem 2rem 2.125rem;
+    }
+
+    .accordion-body p {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .navigation {
+        padding-top: 3.5rem;
+    }
+
+    .accordion-button::after {
+        background-image: url("../img/Open.svg");
+        background-size: cover;
+        width: 2.875rem;
+        height: 2.875rem;
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        width: 2.875rem;
+        height: 2.875rem;
+    }
+
+    .accordion-container {
+        margin-top: 3rem;
+    }
+}

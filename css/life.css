@@ -1,0 +1,304 @@
+.cd-project-info .mobile {
+    background: #252525 url('../img/life/bg\ \(7\).jpg');
+    background-size: cover;
+    padding-top: 5rem;
+}
+
+.cd-background-wrapper {
+    background: #252525
+}
+
+body {
+    background-color: #F4CEA2;
+}
+
+.cd-project-info .mobile .desc_home {
+    top: 0;
+}
+
+.preview-image .cd-floating-background .image-3 {
+    left: auto !important;
+    right: 10%;
+    width: 40%;
+    object-position: center;
+    bottom: 5%;
+    height: 75%;
+    object-fit: contain;
+}
+
+.preview-image {
+    height: 0 !important;
+}
+
+.cd-project-info {
+    padding-top: 0;
+}
+
+
+@media (min-width: 992px) {
+    /* .desc-text p {
+        font-size: 1.2vh !important;
+        line-height: 1.7vh !important;
+    } */
+
+    .preview-image {
+        height: 100% !important;
+    }
+
+    .cd-project-info {
+        padding-top: auto;
+    }
+}
+
+/* @media (min-width: 1400px) { */
+/* .desc-text p {
+        font-size: 1.4vh !important;
+        line-height: 1.8vh !important;
+    } */
+/* } */
+
+.mobile-header {
+    position: static;
+    padding-left: 1rem;
+}
+
+.primary-nav__warrior {
+    margin-top: 5%;
+    width: 100%;
+    object-position: top;
+}
+
+body::before {
+    background: url("../img/life/bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+/* Uliana */
+/* .cd-project-info_life {
+    background-image: url('../img/life/bg.jpg');
+    background-attachment: fixed;
+} */
+
+.cd-project-info_life .container {
+    max-width: 1114px;
+}
+
+.cd-project-info_life__wrap {
+    padding-left: 3.1rem;
+}
+
+.life-wrap {
+    padding-top: 72px;
+}
+
+
+.life-wrap h3 {
+    font-family: 'ST-Nizhegorodsky', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 3.75rem;
+    align-self: flex-start;
+    /* line-height: 84px; */
+    line-height: 4rem;
+    color: #941307;
+    margin-bottom: 44px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.pray {
+    font-weight: 600;
+    font-size: 20px !important;
+    line-height: 28px;
+    color: #2D2D2D !important;
+    margin-bottom: 28px;
+}
+
+.life-wrap {
+    padding-bottom: 7rem;
+    /* margin-bottom: 143px; */
+}
+
+.life-wrap img {
+
+    max-width: 100%;
+}
+
+.life-wrap img:not(:last-child) {
+    margin-bottom: 56px;
+}
+
+.life-wrap p {
+    font-size: 20px !important;
+    line-height: 28px;
+    color: #2D2D2D;
+    margin-bottom: 36px;
+}
+
+/* Тултип */
+
+dfn {
+    text-decoration: underline;
+    color: #286392;
+    display: inline-block;
+    /* left: 0; */
+    /* padding: 0 0.4em; */
+    cursor: help;
+    font-style: normal;
+    position: relative;
+    height: 16px;
+}
+
+dfn::after {
+    content: attr(data-info);
+    display: inline;
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    /* right: 0; */
+    /* left: -30%; */
+    opacity: 0;
+    /* width: 200px; */
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F4CEA2;
+    padding: 30px;
+    padding-right: 40px;
+    background: #286392;
+    box-shadow: 0px 3px 8px rgba(80, 80, 80, 0.25);
+    border-radius: 16px;
+    pointer-events: none;
+    /* This prevents the box from apearing when hovered. */
+    transition: opacity 250ms, top 250ms;
+}
+
+
+dfn::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: 20%;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    border: solid transparent 5px;
+    border-bottom-color: #286392;
+    transition: opacity 250ms, top 250ms;
+}
+
+dfn:hover {
+    z-index: 2;
+}
+
+@media (max-width:640px) {
+    dfn::after {
+        /* width: 130px; */
+        padding: 20px;
+    }
+}
+
+@media (max-width:640px) {
+    dfn::after {
+
+        /* width: 120px; */
+        font-size: 12px;
+        line-height: 16px;
+        padding: 15px;
+    }
+
+}
+
+/* Keeps the info boxes on top of other elements */
+dfn:hover::after,
+dfn:hover::before {
+    opacity: 1;
+}
+
+dfn:hover::after {
+    top: 30px;
+}
+
+dfn:hover::before {
+    top: 20px;
+}
+
+.desktop-notation__text-link {
+    color: #0d6efd;
+}
+
+/*  */
+.cd-project-info_life .desktop-notation:before {
+    content: "";
+    width: 1000%;
+    border-top: 1px solid #2d2d2d;
+}
+
+.cd-project-info__life__navigation .underline-link {
+    color: #2d2d2d !important;
+    line-height: 48px;
+}
+
+.cd-project-info__life__navigation {
+    margin-bottom: 2.5rem;
+}
+
+.cd-project-info__life__navigation svg circle {
+    stroke: #2d2d2d;
+}
+
+.cd-project-info__life__navigation svg path {
+    fill: #2d2d2d;
+}
+
+.cd-project-info__life__notation p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #2D2D2D;
+}
+
+@media (max-width:1440px) {
+    dfn::after {
+        /* width: 200px !important; */
+    }
+}
+
+@media (max-width:1023px) {
+    .cd-project-info_life__wrap {
+        padding-left: 0;
+    }
+}
+
+@media (max-width:640px) {
+    .life-wrap {
+        padding-top: 54px;
+        /* margin-bottom: 140px; */
+    }
+
+    .life-wrap h3 {
+        font-size: 3rem;
+        line-height: 3.125rem;
+    }
+
+    .cd-project-info__life__navigation {
+        /* margin-bottom: 28px; */
+    }
+}
+
+.navigation .navigation__right-part .navigation__link svg path {
+    fill: none;
+    stroke: #2d2d2d;
+}
+
+.tooltip-inner {
+    /* font-size: 16px !important  ; */
+    /* line-height: 24px !important; */
+    background: #286392;
+    /* padding: 2.125rem 1rem; */
+    /* font-size: .75rem; */
+    /* color: #f4cea2; */
+    text-align: left;
+    font-family: 'Monserrat';
+    max-width: 30%;
+}
+
+.tooltip-inner {}

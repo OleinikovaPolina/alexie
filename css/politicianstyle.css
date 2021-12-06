@@ -1,0 +1,198 @@
+.preview-image .cd-floating-background .image-3 {
+    left: auto;
+    right: 10%;
+    width: 37%;
+    bottom: -10%;
+    height: 90%;
+    object-position: bottom;
+}
+
+.preview-image .mobile {
+    background:#03364D url('../img/politician/bg\ \(4\).png');
+    background-size: cover;
+}
+.cd-background-wrapper {
+  background: #03364D
+}
+body{
+  background-color: #f4cea2;
+}
+
+.warr {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.primary-nav__warrior {
+    width: 100%;
+    height: 70%;
+    object-position: bottom right;
+    object-fit: contain;
+    margin: 0;
+}
+
+.mobile-text p {
+    padding: 3vh 0 0 0;
+}
+.mobile-header{
+    padding-top: 7rem;
+}
+body::before {
+    background: url("../img/politician/фон\ шведы.png") no-repeat center center;
+    background-size: cover;
+}
+
+.cd-project-info {
+    padding: 0;
+}
+
+.cd-project-info * {
+    color: #2d2d2d;
+}
+
+.cd-project-info .orderheaders h1 {
+    color: #941307;
+    font-size: 3.75rem;
+    line-height: 3.875rem;
+    padding: 3rem 0;
+}
+
+.cd-project-info .orderheaders p {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.375rem;
+}
+
+.cd-project-info p {
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    padding-bottom: 1.5rem;
+}
+
+
+.navigation {
+    padding: 1rem 0;
+}
+
+.desktop-notation__text {
+    margin-top: 1rem !important;
+    padding-bottom: 0 !important;
+}
+
+.img1 {
+    position: static;
+    height: 100%;
+}
+
+.img1 img {
+    object-position: bottom;
+
+}
+
+.img2 {
+    position: static;
+    height: 100%;
+    object-position: bottom;
+}
+
+img {
+    object-fit: contain;
+}
+
+.bg-dark-polit {
+    background: url('../img/politician/bg\ \(4\).png');
+    background-position: center;
+    background-size: cover;
+}
+
+body .cd-project-info .bg-dark-polit * {
+    color: #f4cea2;
+}
+
+.img3 img {
+    object-position: center;
+}
+
+.bg3 {
+    background: url('../img/life/bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.bg4 {
+    background: url('../img/politician/фон\ монголы.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.cd-project-info h3 {
+    font-weight: normal;
+    font-size: 1.625rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.03em;
+}
+
+.pl-m-5 {
+    padding-left: 2rem;
+}
+
+@media (min-width:1024px) {
+    .cd-project-info{
+        padding-left: 3.1rem;
+    }
+    .pl-m-5 {
+        padding-left: 0;
+    }
+
+    .pr-5 {
+        padding-right: 2rem;
+    }
+
+    .cd-project-info h3 {
+        font-weight: normal;
+        font-size: 1.8rem;
+        line-height: 2.25rem;
+        letter-spacing: 0.03em;
+    }
+
+    .img2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .img2 img {
+        object-position: right;
+    }
+
+    .img1 {
+        bottom: 0;
+        position: absolute;
+    }
+
+    .navigation {
+        padding: 3rem 0;
+    }
+
+    .cd-project-info .orderheaders h1 {
+        font-size: 5rem;
+        line-height: 5.25rem;
+    }
+
+    .cd-project-info .orderheaders p {
+        font-size: 2.75rem;
+        line-height: 3.375rem;
+    }
+
+    .cd-project-info p {
+        font-weight: normal;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        padding-bottom: 1.75rem;
+    }
+}

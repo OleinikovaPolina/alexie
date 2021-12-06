@@ -1,0 +1,125 @@
+body::before {
+    background: url("../img/Rectangle\ 75.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+body {
+    background-color: #F4CEA2;
+}
+
+.art .cd-background-wrapper {
+    background: #183D5A
+}
+
+.notart .cd-background-wrapper {
+    background: #392206
+}
+
+.art .preview-image .mobile {
+    background: #183D5A url('../img/kartoteka/bg\ \(12\).jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.notart .preview-image .mobile {
+    background: #392206 url('../img/kartoteka/bg\ \(13\).jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.preview-image .cd-floating-background .image-3 {
+    left: auto !important;
+    right: 10%;
+    width: 35%;
+    top: 20%;
+}
+
+.mobile-header {
+    position: static;
+    padding: 3rem 1.5rem 0 1.5rem;
+}
+
+header {
+    padding: 0 2rem !important;
+}
+
+.primary-nav__warrior {
+    position: absolute;
+    bottom: 0;
+}
+
+.nav2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem 2.5rem;
+    opacity: 0;
+    padding-top: 4.75rem;
+    background: #F4CEA2;
+}
+
+@media (min-width:1024px) {
+    .nav2 {
+        padding-top: 1rem;
+        left: 0;
+    }
+}
+
+.notart .primary-nav__warrior {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    height: 37%;
+}
+
+@media (min-width:700px) {
+    .notart .primary-nav__warrior {
+        position: absolute;
+        bottom: 0;
+        width: 80%;
+        height: 50%;
+    }
+}
+.kartotekanav{
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+.codrops-demos div:nth-last-child(1) .kartotekanav {
+    color: #787878 !important;
+    font-size: 1.5rem !important;
+    font-family: 'ST-Nizhegorodsky';
+}
+
+.codrops-demos div:nth-last-child(1) a:hover {
+    color: #BC1A0B !important;
+    transition: 0.5s;
+}
+
+.cd-project-info {
+    padding-top: 3.5rem;
+}
+
+.codrops-demos div:nth-last-child(1) a {
+    font-size: 1.5rem !important;
+}
+
+@media (min-width:1024px) {
+
+    .cd-project-container {
+        padding-left: 3.1rem;
+    }
+}
+
+.grid svg {
+    bottom: 13%;
+    right: 6%;
+    transform: rotate(180deg);
+}
+
+.grid a[href='#'] {
+    cursor: default;
+}
+
+.grid a[href='#'] svg {
+    display: none;
+}

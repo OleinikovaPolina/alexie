@@ -1,0 +1,132 @@
+.cd-project-info__article {
+    padding-top: 92px;
+}
+
+body {
+    background-color: #F6D3AA;
+}
+
+body::before {
+    background: linear-gradient(0deg, rgba(244, 206, 162, 0.9), rgba(244, 206, 162, 0.9)), url('../img/article/back.jpg');
+    background-size: cover;
+}
+
+.cd-project-info__article img {
+    max-width: 100%;
+}
+
+.article_top-part p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #2D2D2D;
+}
+
+.article_top-part-left {
+    padding-right: 29px;
+}
+
+.article_bottom-part p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.article_top-part-left::first-letter {
+    font-family: 'ST-Nizhegorodsky';
+    font-size: 144px;
+    line-height: 54px;
+    padding: 20px;
+    padding-left: 0;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    /* margin-bottom: 7px; */
+    /* margin-right: 5px; Отступ справа */
+    float: left;
+    /* Обтекание по правому краю */
+
+    color: #941307;
+}
+
+.article_top-part-right {
+    /* padding-top: 20px; */
+}
+
+.article_top-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_top-part-right {
+    /* padding-top: 27px; */
+}
+
+.article_top-part {
+    margin-bottom: 47px;
+}
+
+.article_top-part img {
+    margin-bottom: 32px;
+}
+
+.navigation_article {
+    margin-bottom: 2.5rem;
+}
+
+.cd-project-info__article {
+    /* padding-top: 76px; */
+}
+
+.article_bottom-part p {
+    font-weight: normal;
+    color: #2D2D2D;
+    margin-bottom: 79px;
+}
+
+.article_bottom-part img {
+    margin-bottom: 35px;
+}
+
+@media (max-width:640px) {
+    .article_top-part-right img {
+        margin-bottom: 58px;
+        width: 100%;
+    }
+
+    .article_top-part {
+        flex-direction: column;
+    }
+
+    .article_top-part-left {
+        margin-right: 0;
+        margin-bottom: 58px;
+    }
+
+    .article_top-part, .article_bottom-part img {
+        margin-bottom: 58px;
+    }
+}
+
+@media (min-width:1024px) {
+    .cd-project-info {
+        padding-left: 3.1rem;
+    }
+}
+
+.mobile-text p {
+    padding: 0;
+    padding-top: 2rem;
+}
+
+.preview-image .mobile {
+    background: #165462 url("../img/article/bg\ \(6\).png");
+    background-position: center;
+    background-size: cover;
+}
+
+.cd-background-wrapper {
+    background: #165462
+}
+
+body .mobile-header p {
+    font-size: 1.75rem !important;
+    line-height: 2.25rem !important;
+}

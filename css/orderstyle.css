@@ -1,0 +1,158 @@
+@media (min-width:992px) {
+    html {
+        font-size: 80% !important;
+    }
+}
+
+@media (min-width:1400px) {
+    html {
+        font-size: 120% !important;
+    }
+}
+
+.preview-image .cd-floating-background .image-3 {
+    left: auto;
+    right: 25%;
+    bottom: 10%;
+    width: 20%;
+}
+
+.cd-projects .preview-image {
+    height: auto;
+}
+
+.preview-image .mobile {
+    background:#5C140D url('../img/order/BG (2).png');
+    background-size: cover;
+}
+.cd-background-wrapper {
+  background: #5C140D
+}
+body{
+  background-color: #E8C195;
+}
+
+.primary-nav__warrior {
+    height: auto;
+    margin-top: 7rem;
+    width: 100%;
+    object-position: right;
+    object-fit: contain;
+}
+
+.mobile h1 {
+    font-size: 7.5rem;
+    line-height: 8rem;
+}
+
+@media (min-width: 600px) {
+    body .mobile .mobile-header h1 {
+        font-size: 11vh;
+    }
+}
+
+.people__text {
+    width: 50%;
+    margin: 0 auto;
+    /* padding-bottom: 0!important; */
+}
+
+.imgorder {
+    width: 100%;
+    object-fit: contain;
+}
+
+body::before {
+    background: url("../img/order/BG\ \(3\).png") no-repeat center center;
+    background-size: cover;
+}
+
+.cd-project-info {
+    padding-top: 0;
+}
+
+.cd-project-info * {
+    color: #2d2d2d;
+}
+
+.people__img img {
+    width: 30%;
+}
+
+.cd-project-info .orderheaders h1 {
+    font-size: 3.75rem;
+    line-height: 3.875rem;
+}
+
+.cd-project-info .orderheaders p {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.375rem;
+}
+
+.cd-project-info p {
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    padding-bottom: 1.5rem;
+}
+
+.people {
+    padding-top: 0.5rem;
+}
+
+.orderheaders:first-of-type {
+    padding-top: 2rem;
+}
+
+.navigation {
+    padding: 1rem 0;
+}
+
+.desktop-notation__text {
+    margin-top: 1rem !important;
+    padding-bottom: 0 !important;
+}
+
+@media (min-width:1024px) {
+    .navigation {
+        padding: 3rem 0;
+    }
+
+    .cd-projects .preview-image {
+        height: 100%;
+    }
+
+    .textmob {
+        display: none;
+    }
+
+    .cd-project-info .orderheaders h1 {
+        font-size: 5rem;
+        line-height: 5.25rem;
+    }
+
+    .cd-project-info .orderheaders p {
+        font-size: 2.75rem;
+        line-height: 3.375rem;
+    }
+
+    .cd-project-info p {
+        font-weight: normal;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        padding-bottom: 1.75rem;
+    }
+
+    .people {
+        padding-top: 0.5rem;
+    }
+
+    .orderheaders:first-of-type {
+        padding-top: 2rem;
+    }
+}
+
+.desc-btnscroll .navigation__bottom-part a::after {
+    border-color: #f4cea2;
+}

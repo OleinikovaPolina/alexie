@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/styleparallax.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="./css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="./css/style2.css">
+	<link rel="stylesheet" href="./css/style-for-all-minipages.css">
+	<script src="./js/modernizr.js"></script> <!-- Modernizr -->
+	<style>
+		html {
+			height: 100%;
+		}
+
+		body {
+			height: 100%;
+			/* overflow: hidden; */
+		}
+
+		.cont {
+			flex-direction: column;
+			width: 100%;
+			height: calc(100% - 3.75rem);
+			margin-top: 3.75rem;
+		}
+
+		li.col {
+			display: flex;
+			align-items: center;
+		}
+
+		li a {
+			width: 100%;
+		}
+
+		.cont li {
+			background-repeat: no-repeat;
+			background-position: top center;
+			background-size: cover;
+		}
+
+		.underline-link {
+			width: fit-content;
+		}
+
+		.cont li:nth-of-type(1) {
+			background-image: url('./img/backs/Rectangle\ 47\ \(4\).png');
+		}
+
+
+		.cont li:nth-of-type(2) {
+			background-image: url('./img/backs/Rectangle\ 47\ \(5\).png');
+		}
+
+		.cont li:nth-of-type(3) {
+			background-image: url('./img/backs/Rectangle\ 47\ \(6\).png');
+		}
+
+
+		.cd-project-title p {
+			display: none;
+		}
+
+		@media (min-width:1024px) {
+			.cd-project-title p {
+				display: block;
+			}
+
+			.cont {
+				position: absolute;
+				flex-direction: row;
+				height: 100%;
+				width: calc(100% - 3.1rem);
+				margin-left: 3.1rem;
+				margin-top: 0;
+			}
+
+			li.col {
+				display: block;
+			}
+
+			.cont li {
+				background-position: left center !important;
+			}
+
+			.cont li:nth-of-type(1) {
+				background-image: url('./img/backs/Rectangle\ 47\ \(7\).png');
+			}
+
+			.cont li:nth-of-type(2) {
+				background-image: url('./img/backs/Rectangle\ 47\ \(8\).png');
+			}
+
+			.cont li:nth-of-type(3) {
+				background-image: url('./img/backs/Rectangle\ 47\ \(9\).png');
+			}
+
+		}
+	</style>
+	<title>Память и почесть</title>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<!-- menu_desktop -->
+	<div class="menu position-fixed menu-my d-flex flex-column justify-content-between align-items-center"
+		style='opacity:1;z-index: 4;'>
+		<a href="https://spbculture.ru/ru/" target="_blank" class="d-flex justify-content-center"><img
+				src="./img/logo.png" class="w-50" alt=""></a>
+		<a href="./vr.html" class="vrbtn">VR </a>
+	</div>
+	<!-- menu_mobile -->
+	<div class="menu position-fixed menu-my-mobile d-flex justify-content-between align-items-center"
+		style='opacity:1;z-index: 4;'>
+		<a href="https://spbculture.ru/ru/" target="_blank" class="h-50 d-flex align-items-center"><img
+				src="./img/краткий-белый 1 (1).png" class="h-100" alt=""></a>
+		<a href="./vr.html" class="vrbtn">
+			<div id="kupasen-ugakimev"><span class="">александр невский vr</span></div>
+		</a>
+		<div></div>
+	</div>
+	<!-- menu_btn -->
+	<div class="position-fixed btn-for-menu" style='display:flex'>
+		<div class="position-relative">
+			<a class="cd-nav-trigger cd-text-replace" href="#menu">Меню<span aria-hidden="true"
+					class="cd-icon"></span></a>
+		</div>
+	</div>
+	<ul class="cont d-flex">
+		<li class="col ">
+			<a href="./painting.html" class='menumemory'>
+				<div class="cd-project-title">
+					<h2>Князь Александр Невский в&nbsp;искусстве</h2>
+					<p>Кино, живопись, графика, музыка, скульптура и многое другое</p>
+				</div>
+			</a>
+		</li>
+		<li class="col ">
+			<a href="./SaintPetersburg.html" class='menumemory'>
+				<div class="cd-project-title">
+					<h2>Храмы, церкви, часовни</h2>
+					<p>Действующие и разрушенные, в России и за рубежом</p>
+				</div>
+			</a>
+		</li>
+		<li class="col ">
+			<a href="./order.html" class='menumemory'>
+				<div class="cd-project-title">
+					<h2>Орден Александра Невского
+					</h2>
+					<p>Императорская, советская и российская награда: за заслуги в укреплении государства
+					</p>
+				</div>
+			</a>
+		</li>
+	</ul>
+	<!-- home -->
+	<div class="cd-primary-nav nav-clickable overflow-hidden " id="menu" style="height: 0!important;"></div>
+	<script src="./js/jquery-2.1.1.js"></script>
+	<script src="./js/main2.js"></script>
+	<script src="./js/bootstrap.bundle.min.js"></script>
+	
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(86784535, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/86784535" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+
+</html>

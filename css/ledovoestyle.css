@@ -655,6 +655,7 @@ b {
 }
 
 .cd-project-info_ledovoe__center__left-part {
+  flex: 1;
   /* padding-top: 34px; */
   margin-right: 60px;
 }

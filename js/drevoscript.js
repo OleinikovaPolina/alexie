@@ -1,5 +1,20 @@
 jQuery(document).ready(function ($) {
-
+    function isInternetExplorer() {
+        return window.navigator.userAgent.indexOf('MSIE ') > -1 || window.navigator.userAgent.indexOf('Trident/') > -1;
+    }
+    if (isInternetExplorer()) {
+        $('.container-for-all').each(function () {
+            let t = 0;
+            $(this).children('div').each(function () {
+                t += $(this).width()
+                t+=parseFloat($(this).css("margin-left"))
+                t+=parseFloat($(this).css("margin-right"))
+            });
+            $(this).css({
+                'width': t + 'px'
+            })
+        });
+    }
     w = $(window).width() / 2;
     $('.card-container2 .drevo_card__mportant').each(function () {
         card = $(this).offset().left;

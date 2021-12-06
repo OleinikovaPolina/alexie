@@ -174,7 +174,7 @@
 .desc-btnscroll .navigation__bottom-part a::after, .navigation .navigation__right-part .navigation__link::after {
     width: 25px;
     height: 25px;
-    top:2.5px
+    top: 2.5px
 }
 
 .desc-btnscroll .navigation__bottom-part a:hover {
@@ -202,7 +202,7 @@
     .desc-btnscroll .navigation__bottom-part a::after, .navigation .navigation__right-part .navigation__link::after {
         width: 35px;
         height: 35px;
-        top:3.5px
+        top: 3.5px
     }
 
     .desc-btnscroll svg {
@@ -220,6 +220,10 @@
 
 @media (min-width:1024px) {
 
+    #menu {
+        max-width: 25vw;
+    }
+
     .linkBack-svg {
         width: 40px;
         height: 40px;
@@ -228,7 +232,7 @@
     .desc-btnscroll .navigation__bottom-part a::after, .navigation .navigation__right-part .navigation__link::after {
         width: 40px;
         height: 40px;
-        top:4px;
+        top: 4px;
     }
 
     .desc-btnscroll svg {
@@ -254,7 +258,7 @@
     .desc-btnscroll .navigation__bottom-part a::after, .navigation .navigation__right-part .navigation__link::after {
         width: 50px;
         height: 50px;
-        top:5px;
+        top: 5px;
     }
 
     .desc-btnscroll svg {
@@ -279,7 +283,7 @@
     .desc-btnscroll .navigation__bottom-part a::after, .navigation .navigation__right-part .navigation__link::after {
         width: 60px;
         height: 60px;
-        top:6px;
+        top: 6px;
     }
 
     .desc-btnscroll svg {

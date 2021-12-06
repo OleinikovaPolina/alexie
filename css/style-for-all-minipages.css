@@ -564,5 +564,18 @@ body::before {
 
 .upbtn-container {
     z-index: 2;
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
+}
+
+.upbtn-container.nav-dark a:hover svg {
+    color: #2D2D2D;
+}
+
+.upbtn-container.nav-dark a:hover path {
+    fill: #2D2D2D;
+    stroke: #2D2D2D;
+}
+
+.upbtn-container.nav-dark a:hover circle {
+    stroke: #2D2D2D;
 }

@@ -11,20 +11,24 @@
   background-position: center;
   background-size: cover;
 }
+
 .cd-background-wrapper {
   background: #2E571F
 }
-body{
+
+body {
   background-color: #2E571F;
 }
+
 .navigation__center__img {
   border: 1px solid #f4cea2;
 }
+
 .preview-image .cd-floating-background .image-3 {
   left: 0;
   width: 60%;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   height: 90%;
 }
 
@@ -42,8 +46,8 @@ body{
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
 }
 
 .desc-btnscroll .navigation__bottom-part a::after {
@@ -107,14 +111,14 @@ body::before {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .drevo_card img {
@@ -144,7 +148,7 @@ body::before {
   padding: 9px 12px;
   background: #ffe7cb;
   -webkit-box-shadow: 0px 3px 8px rgba(80, 80, 80, 0.25);
-          box-shadow: 0px 3px 8px rgba(80, 80, 80, 0.25);
+  box-shadow: 0px 3px 8px rgba(80, 80, 80, 0.25);
   border-radius: 8px;
   cursor: pointer;
   z-index: 11111;
@@ -164,6 +168,12 @@ body::before {
   overflow-x: scroll;
   scrollbar-width: none;
   -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+@media (min-width:1024px) {
+  .card-container2 {
+    overflow-x: hidden;
+  }
 }
 
 .card-container2::-webkit-scrollbar {
@@ -206,8 +216,8 @@ body::before {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 @media (min-width: 450px) {
@@ -224,8 +234,8 @@ body::before {
   z-index: 99999;
   left: 0;
   -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
   border-radius: 8px;
 }
 
@@ -260,6 +270,7 @@ body::before {
     width: 44px;
     height: 44px;
   }
+
   .card-col .drevo-link .linkBack-svg {
     height: calc(44px - 0.6rem);
   }
@@ -272,14 +283,14 @@ body::before {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   white-space: nowrap;
   margin: 0 1rem;
   z-index: 1111;
@@ -289,11 +300,11 @@ body::before {
   background: #ffe7cb;
   color: #2d2d2d;
   -webkit-transform: rotate(-89.9deg);
-      -ms-transform: rotate(-89.9deg);
-          transform: rotate(-89.9deg);
+  -ms-transform: rotate(-89.9deg);
+  transform: rotate(-89.9deg);
   padding: 1.125rem 1.5rem;
   -webkit-box-shadow: 0px 3px 8px rgba(80, 80, 80, 0.25);
-          box-shadow: 0px 3px 8px rgba(80, 80, 80, 0.25);
+  box-shadow: 0px 3px 8px rgba(80, 80, 80, 0.25);
   border-radius: 8px;
 }
 
@@ -390,9 +401,9 @@ body::before {
 
 /* end */
 .drevo-text-end p {
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
-    line-height: 2.4rem;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  line-height: 2.4rem;
 }
 
 .tooltip-inner {
@@ -405,5 +416,5 @@ body::before {
 
 .primary-nav__warrior {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }

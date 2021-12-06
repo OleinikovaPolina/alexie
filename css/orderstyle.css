@@ -13,8 +13,9 @@
 .preview-image .cd-floating-background .image-3 {
     left: auto;
     right: 25%;
-    bottom: 10%;
+    top: 10%;
     width: 20%;
+    height: auto;
 }
 
 .cd-projects .preview-image {
@@ -106,7 +107,7 @@ body::before {
 }
 
 .navigation {
-    margin: 1rem 0;
+    margin: 1rem auto;
 }
 
 .desktop-notation__text {
@@ -116,7 +117,7 @@ body::before {
 
 @media (min-width:1024px) {
     .navigation {
-        margin: 3rem 0;
+        margin: 3rem auto;
     }
 
     .cd-projects .preview-image {

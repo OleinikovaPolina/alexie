@@ -76,7 +76,7 @@ body::before {
 
 
 .navigation {
-    padding: 1rem 0;
+    margin: 1rem 0;
 }
 
 .desktop-notation__text {
@@ -176,7 +176,7 @@ body .cd-project-info .bg-dark-polit * {
     }
 
     .navigation {
-        padding: 3rem 0;
+        margin: 3rem 0;
     }
 
     .cd-project-info .orderheaders h1 {

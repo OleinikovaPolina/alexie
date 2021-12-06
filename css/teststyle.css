@@ -78,7 +78,7 @@ label {
 }
 
 .navigation {
-    padding: 1rem 0;
+    margin: 1rem 0;
 }
 
 .desktop-notation__text {
@@ -88,7 +88,7 @@ label {
 
 @media (min-width:992px) {
     .navigation {
-        padding: 3rem 0;
+        margin: 3rem 0;
     }
 
     .desktop-notation__text {

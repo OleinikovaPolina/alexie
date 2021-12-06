@@ -106,7 +106,7 @@ body::before {
 }
 
 .navigation {
-    padding: 1rem 0;
+    margin: 1rem 0;
 }
 
 .desktop-notation__text {
@@ -116,7 +116,7 @@ body::before {
 
 @media (min-width:1024px) {
     .navigation {
-        padding: 3rem 0;
+        margin: 3rem 0;
     }
 
     .cd-projects .preview-image {

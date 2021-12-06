@@ -777,7 +777,7 @@ li.selected .cd-project-title {
   /* vertically align inside nav */
   display: table-cell;
   vertical-align: middle;
-  text-align: start;
+  text-align: left;
 }
 
 .cd-primary-nav .cd-nav-trigger {

@@ -593,7 +593,7 @@ Projects
     -ms-transform: translateY(40vh);
     -o-transform: translateY(40vh);
     transform: translateY(40vh);
-    text-align: start;
+    text-align: left;
   }
 
   .cd-project-title p {

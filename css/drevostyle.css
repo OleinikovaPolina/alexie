@@ -399,10 +399,6 @@ body::before {
   max-width: 40rem;
 }
 
-.tooltip {
-  overflow: hidden;
-}
-
 .card-col .linkBack-svg {
   width: 100%;
 }

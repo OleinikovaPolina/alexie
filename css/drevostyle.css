@@ -42,12 +42,12 @@ body {
 }
 
 .desc-btnscroll .navigation__bottom-part {
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  justify-content: flex-end;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: end;
 }
 
 .desc-btnscroll .navigation__bottom-part a::after {

@@ -172,7 +172,7 @@ label {
 
 input {
     cursor: pointer;
-    margin-top: 0 !important;
+/*     margin-top: 0 !important; */
 }
 
 input[disabled], input[disabled]~.form-check-label {
@@ -181,8 +181,8 @@ input[disabled], input[disabled]~.form-check-label {
 
 .form-check {
     margin-bottom: 1.4rem;
-    display: flex;
-    align-items: center;
+/*     display: flex;
+    align-items: center; */
 }
 
 .quiz__footer .underline-link, .quiz__head .underline-link {

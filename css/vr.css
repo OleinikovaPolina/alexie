@@ -1,6 +1,9 @@
 .vk-video {
     display: none;
 }
+.vk-videoIE {
+    display: none;
+}
 
 .close-img {
     display: none;

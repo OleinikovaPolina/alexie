@@ -228,6 +228,7 @@
 
     #menu {
         max-width: 25vw;
+        max-width: fit-content;
     }
 
     .linkBack-svg {

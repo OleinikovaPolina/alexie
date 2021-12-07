@@ -25,9 +25,6 @@
   margin-bottom: 108px;
 }
 
-/* .historic-info .container{
-    max-width: 1112px;
-} */
 .historic h2 {
   font-size: 17vh !important;
 }
@@ -141,7 +138,6 @@ body {
 
 .event_days {
   position: relative;
-  /* margin-bottom: 20px; */
 }
 
 .days {

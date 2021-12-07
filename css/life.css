@@ -36,10 +36,6 @@ body {
 
 
 @media (min-width: 992px) {
-    /* .desc-text p {
-        font-size: 1.2vh !important;
-        line-height: 1.7vh !important;
-    } */
 
     .preview-image {
         height: 100% !important;

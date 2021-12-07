@@ -1,7 +1,7 @@
 "use strict";
 
 window.addEventListener('load', function () {
-  ocument.querySelector('.vk-video').src = 'https://vk.com/video_ext.php?oid=-13695781&id=456239507&hash=bc33811e79c66d35';
+  document.querySelector('.vk-video').src = 'https://vk.com/video_ext.php?oid=-135841332&id=456239063&hash=9e0840aa6d331cdd&hd=4&autoplay=1';
   document.querySelector(".vk-video-wrap").addEventListener('click', function () {
     document.querySelector('.vk-video').classList.add('d-block');
     document.querySelector('.close-img').classList.add('d-block');

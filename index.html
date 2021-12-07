@@ -49,6 +49,7 @@
 			margin: 1rem;
 			cursor: pointer;
 		}
+
 		.vr-video-wrap_img {
 			animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
 			animation-fill-mode: forwards;
@@ -61,32 +62,51 @@
 			}
 		}
 
+		.cd-primary-nav::after {
+			display: none;
+		}
+		.act.cd-primary-nav::after {
+			display: flex;
+			opacity: 1;
+			content: "Переверните экран";
+			width: 100%;
+			height: 100%;
+			background: url("../img/cd-img-1.jpg");
+			background-size: cover;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 98;
+			justify-content: center;
+			align-items: center;
+		}
 		@media (min-width:1024px) {
 			.vr-video-wrap_img {
 				display: block;
 			}
+
 			#menu {
 				width: 100%;
 			}
 		}
 	</style>
 	<title>Александр Невский VR</title>
-	
+
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
 	<img class="close-img" src="./img/ledovoe/Close.svg" alt="">
 	<iframe class="vk-video"
 		style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:99; display: none;"
-		src=""
-		allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen="1"></iframe>
+		src="" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0"
+		allowfullscreen="1"></iframe>
 
 	<!-- menu_desktop -->
 	<div class="menu position-fixed menu-my d-flex flex-column justify-content-between align-items-center">
@@ -265,11 +285,11 @@
 					<a class="col-4" href="https://www.hermitagemuseum.org" target="_blank">
 						<img src="./img/eff03463.svg" alt="" class="logo2 h-100"></a>
 				</div>
-				
+
 				<div class="d-flex align-items-end pt-5">
-				    <div class="col-6">
-				        <img src="./img/alex (2).png" alt="" class="primary-nav__warrior">
-				    </div>
+					<div class="col-6">
+						<img src="./img/alex (2).png" alt="" class="primary-nav__warrior">
+					</div>
 					<div class="col-6">
 						<p class="ramka py-2">в рамках Дней Эрмитажа</p>
 						<img src="./img/Александр Невский (1).png" class="w-100 h-100 ml--1" alt="">
@@ -277,9 +297,9 @@
 				</div>
 				<div>
 					<ul>
-						
+
 						<li class=" d-flex align-items-center">
-						    <div class="lll after">
+							<div class="lll after">
 								<svg class="  linkBack-svg navigation__svg preview-image_historical-summary__svg"
 									width="48" height="48" viewBox="0 0 48 48" fill="none"
 									xmlns="http://www.w3.org/2000/svg">
@@ -288,46 +308,50 @@
 								</svg>
 							</div>
 						</li>
-			        </ul>
-			    </div>
+					</ul>
+				</div>
 				<div>
 					<ul>
-						
+
 						<li>
-						    <!---
+							<!---
 						    <a href="./vr.html" class="cd-nav-trigger underline-link position-static">vr-видео и app</a>
 						    -->
-						    <a href="./vr.html" class="cd-nav-trigger underline-link position-static">
+							<a href="./vr.html" class="cd-nav-trigger underline-link position-static">
 								VR-видео и App
 							</a>
 						</li>
 						<li><a href="./menualexander.html" class="cd-nav-trigger underline-link position-static">Князь
 								Александр</a></li>
-						<li><a href="./menumemory.html" class="cd-nav-trigger underline-link position-static">Память и почесть</a>
+						<li><a href="./menumemory.html" class="cd-nav-trigger underline-link position-static">Память и
+								почесть</a>
 						</li>
 						<li><a href="./article.html" class="cd-nav-trigger underline-link position-static">Эрмитаж</a>
 						</li>
-						<li><a href="./menuinteractive.html" class="cd-nav-trigger underline-link position-static">Интерактив</a>
+						<li><a href="./menuinteractive.html"
+								class="cd-nav-trigger underline-link position-static">Интерактив</a>
 						</li>
 					</ul>
 				</div>
 				<div class="w-100 d-flex justify-content-end">
 					<ul class="ul2 d-flex pt-5">
 						<li>
-						    <a href="./menuabout.html" style="color: #DE2C1B;" class="cd-nav-trigger position-static">О	проекте</a>
+							<a href="./menuabout.html" style="color: #DE2C1B;" class="cd-nav-trigger position-static">О
+								проекте</a>
 						</li>
 						<li>
-						    <a href="./partners.html" class="position-static">Партнеры</a>
+							<a href="./partners.html" class="position-static">Партнеры</a>
 						</li>
 					</ul>
-					
+
 				</div>
 				<div class="w-100 d-flex justify-content-end">
-				    <ul class="ul2 d-flex pt-5">
+					<ul class="ul2 d-flex pt-5">
 						<li>
-					        <a href="" class="cd-nav-trigger position-static">Рекомендуем смотреть с планшета или компьютера</a>
-					    </li>
-				    </ul>
+							<a href="" class="cd-nav-trigger position-static">Рекомендуем смотреть с планшета или
+								компьютера</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -386,7 +410,8 @@
 									</ul>
 									<div>
 										<ul class="ul2 d-flex pt-4">
-											<li><a href="./menuabout.html" class="cd-nav-trigger position-static">О проекте</a>
+											<li><a href="./menuabout.html" class="cd-nav-trigger position-static">О
+													проекте</a>
 											</li>
 											<li><a href="./partners.html" class="position-static">Партнеры</a></li>
 										</ul>
@@ -403,22 +428,26 @@
 	<script src="./js/jquery-2.1.1.js"></script>
 	<script src="./js/main.js"></script> <!-- Resource jQuery -->
 	<script src='./js/copyhomescript.js'></script>
-	
-	<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(86784535, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/86784535" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+		(function (m, e, t, r, i, k, a) {
+			m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+			m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+		})
+			(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+		ym(86784535, "init", {
+			clickmap: true,
+			trackLinks: true,
+			accurateTrackBounce: true,
+			webvisor: true
+		});
+	</script>
+	<noscript>
+		<div><img src="https://mc.yandex.ru/watch/86784535" style="position:absolute; left:-9999px;" alt="" /></div>
+	</noscript>
+	<!-- /Yandex.Metrika counter -->
 
 </body>
 

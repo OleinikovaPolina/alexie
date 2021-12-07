@@ -4,7 +4,9 @@ jQuery(document).ready(function ($) {
 	} else {
 		$(".cd-projects-previews").css("width", "calc(100% - 3.1rem)");
 	}
-
+	if ($(window).width() < 992 && $(window).height() < $(window).width()) {
+		$('.cd-primary-nav').addClass('act')
+	}
 	//define store some initial variables
 	var halfWindowH = $(window).height() * 0.5,
 		halfWindowW = $(window).width() * 0.5,
@@ -35,6 +37,11 @@ jQuery(document).ready(function ($) {
 
 	//on resize - adjust .cd-background-wrapper and .cd-floating-background dimentions and position
 	$(window).on('resize', function () {
+		if ($(window).width() < 992 && $(window).height() < $(window).width()) {
+			$('.cd-primary-nav').addClass('act')
+		}else{
+			$('.cd-primary-nav').removeClass('act')
+		}
 		if ($('html').hasClass('preserve-3d')) {
 			window.requestAnimationFrame(function () {
 				halfWindowH = $(window).height() * 0.5,

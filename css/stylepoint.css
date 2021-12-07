@@ -439,7 +439,8 @@ header h1 {
   }
 } */
 
-.cd-single-point .cd-more-info {
+.cd-single-point .cd-more-info { 
+  display: table;
   position: fixed;
   top: 0;
   left: 0;

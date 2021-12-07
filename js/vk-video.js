@@ -4,7 +4,7 @@ window.addEventListener('load', function () {
     document.querySelector(".vk-video-wrap").addEventListener('click', function () {
       if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
         //ie
-        document.querySelector('.vk-videoIE').src = 'video/АлександрНевскийVR.mp4';
+        document.querySelector('.vk-videoIE').src = '/video/АлександрНевскийVR.mp4';
         document.querySelector('.vk-videoIE').classList.add('d-block');
         document.querySelector('.vk-videoIE').classList.play();
       } else {

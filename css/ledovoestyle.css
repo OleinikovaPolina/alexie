@@ -562,7 +562,6 @@ header h1 {
   color: #941307;
   margin-bottom: 26px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  /* max-width: 813px; */
 }
 
 .cd-project-info_ledovoe__center h4 {
@@ -578,10 +577,6 @@ header h1 {
   display: inline;
 }
 
-.cd-single-step .cd-more-info .cd-more-info__second-text p {
-  /* display: inline; */
-}
-
 .cd-more-info__second-text span {
   font-style: normal;
   font-size: 12px !important;
@@ -589,11 +584,6 @@ header h1 {
   color: #f4cea2 !important;
 }
 
-/* .cd-more-info__second-text p{
-      font-size: 12px;
-  line-height: 24px;
-  color: #f4cea2;
-} */
 .cd-project-info_ledovoe__center .cd-more-info span,
 b {
   font-size: 1.25rem;
@@ -849,11 +839,6 @@ body {
     line-height: 44px;
   }
 
-  .cd-project-info_ledovoe__center p {
-    /* font-size: 16px !important; */
-    /* line-height: 24px !important; */
-  }
-
   .cd-project-info_ledovoe__center__enemys__text li {
     font-size: 16px !important;
     line-height: 24px !important;
@@ -940,15 +925,12 @@ body {
 
 .cd-more-info__second-text_notation {
   font-size: 12px !important;
-  /* line-height: 16px !important; */
 }
 
 
 @media (max-width: 640px) {
   .map {
     height: 554px;
-    /* display: flex;
-    align-items:center; */
   }
 
   .accordion-body {
@@ -984,12 +966,6 @@ body {
   right: 30px;
 }
 
-/* .cd-close svg{
-  fill: #2d2d2d;
-  stroke: #2d2d2d;
-  color:#2d2d2d;
-  background:#2d2d2d;
-} */
 .cd-single-step_first .cd-prev {
   display: none;
 }

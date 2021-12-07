@@ -50,13 +50,6 @@ body {
     }
 }
 
-/* @media (min-width: 1400px) { */
-/* .desc-text p {
-        font-size: 1.4vh !important;
-        line-height: 1.8vh !important;
-    } */
-/* } */
-
 .mobile-header {
     position: static;
     padding-left: 1rem;
@@ -74,10 +67,6 @@ body::before {
 }
 
 /* Uliana */
-/* .cd-project-info_life {
-    background-image: url('../img/life/bg.jpg');
-    background-attachment: fixed;
-} */
 
 .cd-project-info_life .container {
     max-width: 1114px;
@@ -153,10 +142,7 @@ dfn::after {
     position: absolute;
     top: 22px;
     left: -20px;
-    /* right: 0; */
-    /* left: -30%; */
     opacity: 0;
-    /* width: 200px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
@@ -290,15 +276,8 @@ dfn:hover::before {
 }
 
 .tooltip-inner {
-    /* font-size: 16px !important  ; */
-    /* line-height: 24px !important; */
     background: #286392;
-    /* padding: 2.125rem 1rem; */
-    /* font-size: .75rem; */
-    /* color: #f4cea2; */
     text-align: left;
     font-family: 'Monserrat';
     max-width: 30%;
 }
-
-.tooltip-inner {}

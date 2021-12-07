@@ -13,7 +13,7 @@ window.addEventListener('load', function () {
   document.querySelector('.close-img').addEventListener('click', function (event) {
     event.currentTarget.classList.remove('d-block');
     document.querySelector('.vk-video').classList.remove('d-block');
-    document.querySelector('.vk-video').src = 'https://vk.com/video_ext.php?oid=-13695781&id=456239507&hash=bc33811e79c66d35';
+    document.querySelector('.vk-video').src = 'https://vk.com/video_ext.php?oid=-135841332&id=456239063&hash=9e0840aa6d331cdd&hd=4';
     document.querySelector('.btn-for-menu').classList.remove('d-none');
     document.querySelectorAll('.menu').forEach(function (el) {
       el.style.zIndex = "4";

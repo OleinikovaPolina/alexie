@@ -78,11 +78,16 @@ body {
     padding-bottom: 2rem;
 }
 
-.navigation__center__img{
-    border: 1px solid #F4CEA2;
-    border-radius: 100px !important;
-}
+
+    .navigation__center__img{
+        border-radius: 100px !important;
+        border: 1px solid #2D2D2D;
+    }
 @media (min-width:992px) {
+    .navigation__center__img{
+        border: 1px solid #F4CEA2;
+        border-radius: 100px !important;
+    }
     .desc_home {
         padding-bottom: 3rem;
     }

@@ -201,6 +201,7 @@
     .vr-add__buttons {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
 
     .vr-video-wrap {
@@ -224,7 +225,11 @@
         height: 100%;
     }
 }
-
+@media (max-width:600px) {
+    .vr-add__button:nth-child(1){
+        margin-right: 10px;
+    }
+}
 @media (max-width:425px) {
     .vr-add {
         background: url('../img/vr-back.jpg') center/cover;

@@ -804,7 +804,16 @@ body {
   }
 
 }
-
+@media (max-width:768px) {
+  .cd-more-info__first-text{
+    max-height: 90px;
+    overflow: auto;
+  }
+  .cd-more-info__second-text{
+    max-height: 90px;
+    overflow: auto;    
+  }
+}
 @media (max-width: 640px) {
   .accordion {
     margin-bottom: 54px;

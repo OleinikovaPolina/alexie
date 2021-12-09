@@ -53,15 +53,14 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 1rem 2.5rem;
     opacity: 0;
-    padding-top: 4.75rem;
+    padding-top: 3.1rem;
     background: #F4CEA2;
 }
 
 @media (min-width:1024px) {
     .nav2 {
-        padding-top: 1rem;
+        padding-top: 0;
         left: 0;
     }
 }
@@ -80,6 +79,7 @@ header {
         width: 90%;
         height: 50%;
     }
+
     .notart .primary-nav__warrior {
         position: absolute;
         bottom: 0;
@@ -87,10 +87,13 @@ header {
         height: 50%;
     }
 }
-.kartotekanav{
+
+.kartotekanav {
     padding-left: 0.5rem;
     padding-top: 0.5rem;
 }
+
+
 .codrops-demos div:nth-last-child(1) .kartotekanav {
     color: #787878 !important;
     font-size: 1.5rem !important;
@@ -110,10 +113,18 @@ header {
     font-size: 1.5rem !important;
 }
 
+.nav2 .codrops-demos {
+    padding: 1rem 2rem !important;
+}
+
 @media (min-width:1024px) {
 
     .cd-project-container {
         padding-left: 3.1rem;
+    }
+
+    .nav2 .codrops-demos {
+        padding: 1rem 2rem !important;
     }
 }
 

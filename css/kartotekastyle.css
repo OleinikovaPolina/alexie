@@ -46,6 +46,7 @@ header {
 .primary-nav__warrior {
     position: absolute;
     bottom: 0;
+    height: 40vh;
 }
 
 .nav2 {
@@ -68,11 +69,17 @@ header {
 .notart .primary-nav__warrior {
     position: absolute;
     bottom: 0;
-    width: 80%;
-    height: 37%;
+    width: 60%;
+    height: 30%;
 }
 
 @media (min-width:700px) {
+    .primary-nav__warrior {
+        position: absolute;
+        bottom: 0;
+        width: 90%;
+        height: 50%;
+    }
     .notart .primary-nav__warrior {
         position: absolute;
         bottom: 0;

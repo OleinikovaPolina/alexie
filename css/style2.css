@@ -502,9 +502,9 @@ h6 {
     margin-left: 9px;
   }
 
-  .navigation__center {
+  /* .navigation__center {
     left: 47%;
-  }
+  } */
 }
 
 .tooltip-inner {
@@ -740,7 +740,8 @@ a.disabled {
 
 @media (max-width:320px) {
   .navigation__center {
-    left: 46%;
+    /* left: 46%; */
+    left: 51%;
     width: 25px;
     height: 25px;
   }

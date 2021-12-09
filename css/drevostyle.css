@@ -414,4 +414,5 @@ body::before {
 .primary-nav__warrior {
   -o-object-fit: contain;
   object-fit: contain;
+  height: 40vh;
 }

@@ -38,8 +38,14 @@ body {
 .best {
   padding-top: 6vh;
   height: 25vh;
+  margin-top: 4vh;
 }
+@media (min-width:1024px){
+  .best {
+    margin-top: 0;
+  }
 
+}
 .vk {
   height: 10vh;
 }
@@ -64,7 +70,7 @@ body {
 }
 
 .navigation {
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 @media (min-width: 1024px) {

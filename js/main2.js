@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
   if ($('.desktop-notation').hasClass('nav-dark')) {
     tttt = 'nav-dark'
   }
-  $('body').append("<div class=\"desc-btnscroll "+tttt+" upbtn-container\">\n\t<div class=\"navigation__bottom-part\">\n\t\t<a href='#' class=\"linkBack navigation__link upbtn\">\n\t\t\t<svg class=\"linkBack-svg navigation__svg preview-image_historical-summary__svg\"\n\t\t\t\twidth=\"65\" height=\"65\" viewBox=\"0 0 65 65\" fill=\"none\"\n\t\t\t\txmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t<circle cx=\"32.5\" cy=\"32.5\" r=\"32\" stroke=\"#F4CEA2\" />\n\t\t\t\t<path d=\"M16.9238 31.999H49.9238L47.9238 33.999H16.9238V31.999Z\"\n\t\t\t\t\tfill=\"#F4CEA2\" />\n\t\t\t\t<path\n\t\t\t\t\td=\"M15.9236 31.9582L30.8818 17L31.023 19.6405L16.5675 34.1427L15.9236 31.9582Z\"\n\t\t\t\t\tfill=\"#F4CEA2\" />\n\t\t\t\t<path\n\t\t\t\t\td=\"M15 32.9043L29.882 47.7863L29.882 44.9998L16.4142 31.4901L15 32.9043Z\"\n\t\t\t\t\tfill=\"#F4CEA2\" />\n\t\t\t</svg>\n\t\t</a>\n\t</div>\n</div>");
+  $('body').append("<div class=\"desc-btnscroll " + tttt + " upbtn-container\">\n\t<div class=\"navigation__bottom-part\">\n\t\t<a href='#' class=\"linkBack navigation__link upbtn\">\n\t\t\t<svg class=\"linkBack-svg navigation__svg preview-image_historical-summary__svg\"\n\t\t\t\twidth=\"65\" height=\"65\" viewBox=\"0 0 65 65\" fill=\"none\"\n\t\t\t\txmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t<circle cx=\"32.5\" cy=\"32.5\" r=\"32\" stroke=\"#F4CEA2\" />\n\t\t\t\t<path d=\"M16.9238 31.999H49.9238L47.9238 33.999H16.9238V31.999Z\"\n\t\t\t\t\tfill=\"#F4CEA2\" />\n\t\t\t\t<path\n\t\t\t\t\td=\"M15.9236 31.9582L30.8818 17L31.023 19.6405L16.5675 34.1427L15.9236 31.9582Z\"\n\t\t\t\t\tfill=\"#F4CEA2\" />\n\t\t\t\t<path\n\t\t\t\t\td=\"M15 32.9043L29.882 47.7863L29.882 44.9998L16.4142 31.4901L15 32.9043Z\"\n\t\t\t\t\tfill=\"#F4CEA2\" />\n\t\t\t</svg>\n\t\t</a>\n\t</div>\n</div>");
   $(".cd-projects-previews").css("width", "0");
   $('.cd-projects-container').scroll(function () {
     if ($(this).scrollTop() > 100) {
@@ -251,7 +251,7 @@ jQuery(document).ready(function ($) {
     }, 0);
   });
 
-  if (!$('body').hasClass('notscroll')) {
+  if (!$('body').hasClass('notscroll') && !($(window).width() < 1024 && $('body').hasClass('notscrollmobile'))) {
     var scroll1 = false;
     var scroll2 = false;
     var st = 0;
@@ -282,6 +282,7 @@ jQuery(document).ready(function ($) {
         });
       }
     });
+
   }
 });
 /*

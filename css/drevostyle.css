@@ -73,10 +73,6 @@ body::before {
   padding-bottom: 6rem;
 }
 
-.modal img {
-  padding-top: 4rem;
-}
-
 .modal h1 {
   font-size: 2.5rem;
   color: #2d2d2d;

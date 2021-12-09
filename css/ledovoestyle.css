@@ -805,14 +805,16 @@ body {
 
 }
 @media (max-width:768px) {
-  .cd-more-info__first-text{
-    max-height: 90px;
+  .scroll-text{
+    max-height: 250px;
+    height: 50vh;
+    /* height: 10vh; */
     overflow: auto;
   }
-  .cd-more-info__second-text{
+  /* .cd-more-info__second-text{
     max-height: 90px;
     overflow: auto;    
-  }
+  } */
 }
 @media (max-width: 640px) {
   .accordion {

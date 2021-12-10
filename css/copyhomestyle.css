@@ -5,18 +5,17 @@
 }
 
 .linkBack-svg {
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
 }
 .after{
     position: relative;
-    margin-left: 16rem;
     cursor: pointer;
     padding-bottom: 10px;
 }
 .after::after {
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
     
 }
 /* 

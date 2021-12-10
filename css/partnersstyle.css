@@ -6,9 +6,11 @@ body::before {
 body {
   background-color: #2d2d2d;
 }
+
 .navigation__center__img {
   border: 1px solid #f4cea2;
 }
+
 .preview-image {
   height: 0 !important;
 }
@@ -32,20 +34,22 @@ body {
 }
 
 .many {
-  height: 35vh;
+  height: 25vh;
 }
 
 .best {
-  padding-top: 6vh;
-  height: 25vh;
-  margin-top: 4vh;
+  margin-top: 8rem;
 }
-@media (min-width:1024px){
+
+@media (min-width:1024px) {
   .best {
+    height: 25vh;
+    padding-top: 6vh;
     margin-top: 0;
   }
 
 }
+
 .vk {
   height: 10vh;
 }
@@ -60,8 +64,9 @@ body {
 }
 
 .cd-project-info p {
-  font-size: 0.75rem;
-  line-height: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
   color: #8b8d8e;
 }
 
@@ -79,7 +84,7 @@ body {
   }
 
   .navigation {
-    margin-top: 8rem;
+    margin-top: 4rem;
   }
 
   .alllogos {

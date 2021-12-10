@@ -88,11 +88,6 @@ label {
 }
 
 @media (min-width:992px) {
-    .containerfooter .navigation{
-        padding-left: 3.1rem;
-    }
-}
-@media (min-width:992px) {
     .navigation {
         margin-top: 3rem;
         margin-bottom: 3rem;

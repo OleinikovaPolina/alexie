@@ -39,7 +39,7 @@ body{
     padding: 3vh 0 0 0;
 }
 .mobile-header{
-    padding-top: 7rem;
+    padding-top: 6rem;
 }
 body::before {
     background: url("../img/politician/фон\ шведы.png") no-repeat center center;
@@ -69,9 +69,15 @@ body::before {
 
 .cd-project-info p {
     font-weight: normal;
-    font-size: 1.5rem;
-    line-height: 2.4rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     padding-bottom: 1.5rem;
+}
+@media (min-width:512px) {
+    .cd-project-info p {
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
 }
 
 

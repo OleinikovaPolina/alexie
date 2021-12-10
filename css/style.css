@@ -961,12 +961,11 @@ Main Components
   position: fixed;
   /* background-image:url('../img/ledovoe/point-back.png'); */
   z-index: 2;
-  height: 90%;
+  height: 80%;
   width: 90%;
   /* height: 100%; */
   left: 50%;
   top: 50%;
-  top: 54%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);

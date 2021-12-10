@@ -806,8 +806,8 @@ body {
 }
 @media (max-width:768px) {
   .scroll-text{
-    max-height: 250px;
-    height: 95vh;
+    /* max-height: 250px; */
+    height: 90vh;
     /* height: 10vh; */
     overflow: auto;
   }

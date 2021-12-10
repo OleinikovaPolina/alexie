@@ -39,7 +39,7 @@ body{
     padding: 3vh 0 0 0;
 }
 .mobile-header{
-    padding-top: 7rem;
+    padding-top: 6rem;
 }
 body::before {
     background: url("../img/politician/фон\ шведы.png") no-repeat center center;

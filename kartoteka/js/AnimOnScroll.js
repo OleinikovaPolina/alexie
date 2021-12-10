@@ -201,7 +201,7 @@ jQuery(document).ready(function ($) {
 
   var containerEl = $('.cd-projects-container')[0];
   var scrollbarWidth = containerEl.offsetWidth - containerEl.clientWidth;
-  var t = $('.cd-project-info').offset().top + convertRemToPixels(2.5);
+  var t = $('.cd-project-info').offset().top+$('.cd-projects-container').scrollTop() + convertRemToPixels(2.5);
   $('.nav2').css({
     'right': scrollbarWidth + 'px'
   });

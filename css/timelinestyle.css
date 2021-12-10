@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+.primary-nav__warrior {
+  height: 46vh;
+}
+
 /* ШРИФТЫ СТИЛИ */
 @font-face {
   font-family: "Directstep";
@@ -151,12 +155,14 @@ body {
   font-size: 44px;
   line-height: 54px;
 }
+
 @media only screen and (min-width: 1024px) {
   .events-and-dates img {
     max-width: 500px;
-    max-height:400px;
+    max-height: 400px;
   }
 }
+
 @media (max-width:640px) {
   .event__description {
     font-size: 16px !important;
@@ -166,10 +172,12 @@ body {
   .event_days {
     padding-bottom: 140px;
   }
+
   .event__underline-link {
     font-size: 36px !important;
     line-height: 40px;
   }
+
   .events-and-dates__element_link {
     margin-bottom: 100px !important;
   }
@@ -182,16 +190,20 @@ body {
   .second-part {
     font-size: 5rem !important;
   }
-    .event__underline-link {
+
+  .event__underline-link {
     font-size: 24px !important;
     line-height: 28px;
   }
-    .events-and-dates__element_link {
+
+  .events-and-dates__element_link {
     margin-bottom: 80px !important;
   }
-    .event_days {
-    padding-bottom:90px;
+
+  .event_days {
+    padding-bottom: 90px;
   }
+
   .date {
     margin-right: 20px;
   }
@@ -200,6 +212,7 @@ body {
 .events-and-dates__element_link {
   margin-bottom: 80px !important;
 }
-.navigation__center__img{
-  border:1px solid #f4cea2;
+
+.navigation__center__img {
+  border: 1px solid #f4cea2;
 }

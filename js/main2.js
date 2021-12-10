@@ -53,6 +53,22 @@ jQuery(document).ready(function ($) {
   $('.cd-floating-background').find('img').eq(0).load(function () {
     aspectRatio = $(this).width() / $(this).height();
     if ($('html').hasClass('preserve-3d')) initBackground();
+    else {
+      aspectRatio = $(window).width() / $(window).height();
+      var wrapperHeight = Math.ceil(halfWindowW * 2 / aspectRatio),
+        proportions = maxRotationY > maxRotationX ? 1.1 / Math.sin(Math.PI / 2 - maxRotationY * Math.PI / 180) : 1.1 / Math.sin(Math.PI / 2 - maxRotationX * Math.PI / 180),
+        newImageWidth = Math.ceil(halfWindowW * 2 * proportions),
+        newImageHeight = Math.ceil(newImageWidth / aspectRatio),
+        newLeft = halfWindowW - newImageWidth / 2,
+        newTop = (wrapperHeight - newImageHeight) / 2;
+      console.log(newTop, newLeft)
+      // $('.parallax-text').parent().css({
+      //   'padding': -newTop + 'px 0 0' + -newLeft + 'px'
+      // });
+      // $('.cd-primary-nav .parallax-text').parent().css({
+      //   'padding': -newTop * 3 + 'px 0 0' + -newLeft + 'px'
+      // });
+    }
   }).each(function () {
     //check if image was previously load - if yes, trigger load event
     if (this.complete) $(this).load();
@@ -97,6 +113,7 @@ jQuery(document).ready(function ($) {
     $('.parallax-text').css({
       'transform': 'translateZ(510px) translateY(0) translateX(0)'
     });
+    console.log(newTop, newLeft)
     $('.parallax-text').parent().css({
       'padding': -newTop + 'px 0 0' + -newLeft + 'px'
     });

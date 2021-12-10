@@ -43,7 +43,11 @@ Patterns - reusable parts of our design
 Menu trigger
 
 -------------------------------- */
+.cd-nav{
+  padding-top: 3px;
+}
 .cd-nav-trigger {
+  
   position: absolute;
   z-index: 4;
   /* top: 24px;
